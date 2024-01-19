@@ -5,8 +5,8 @@ from pytube import YouTube
 from asSQL import Client as c
 import os, re, yt_dlp, asyncio, wget, asSQL
 
-save_id = int(-1001464246740) # ايدي القناه
-user = "" # يوزر القناه
+save_id = int(-1002144428010) # ايدي القناه
+user = "@bbnnq" # يوزر القناه
 ####
 SQL = c("virus")
 db = SQL["main"]
@@ -15,7 +15,7 @@ bot = Client(
         "youtube",
         api_id = 9028013,
         api_hash = "cc894fc40424f9c8bbcf06b7355bd69d",
-        bot_token = "" # توكنك
+        bot_token = "6497717567:AAFef5168bXKw5L1YnVOElpGmAastrdRYJc" # توكنك
 )
 @bot.on_message(filters.private & filters.text)
 async def main(bot, msg):
